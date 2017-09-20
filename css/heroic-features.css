@@ -1,0 +1,59 @@
+
+body {
+
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+
+/*STILE CHAT*/
+
+#wrapper {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: lightskyblue;
+    width: 100%;
+    border: 2px solid ;
+}
+
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    height: 200px;
+    width: 95%;
+    border: 2px ridge;
+    overflow: auto;
+}
+
+#usermsg {
+    margin: 1.5%;
+    width: 90%;
+    border: 1px solid;
+}
+
+
+
+#menu {
+    padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome {
+    float: left;
+}
+
+
+.msgln {
+    margin: 0 0 2px 0;
+}
